@@ -69,4 +69,14 @@ public class QualitydemyStepDefinitions {
 
         }
     }
+
+    @And("kullanici kutusuna manuel olarak {string} yazar")
+    public void kullaniciKutusunaManuelOlarakYazar(String username) {
+        qualitydemyPage.kullaniciEmailKutusu.sendKeys(username);
+    }
+
+    @And("password kutusuna manuel olarak {string} yazar")
+    public void passwordKutusunaManuelOlarakYazar(String password) {
+        qualitydemyPage.passwordKutusu.sendKeys(password);
+    }
 }
