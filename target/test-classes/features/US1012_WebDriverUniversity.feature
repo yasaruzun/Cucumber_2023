@@ -17,6 +17,7 @@ Feature: US1012 Window Testi
     Then ilk sayfaya geri doner
     And  ilk sayfaya dondugunu test eder
     Then sayfayi kapatir
+    And acilan tum sayfalari kapatir
 
 
 

@@ -1,4 +1,5 @@
 
+@smoke
 Feature: US1005 Kullanici Configuration.Properties'de yazilan datalari parametre olarak kullanir
 
   # 3 Scenario olusturup , amazon,wisequarter ve walmart ana sayfalarina gidin

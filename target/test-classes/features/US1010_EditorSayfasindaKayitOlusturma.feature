@@ -19,7 +19,7 @@ Feature: US1010 Kullanici Scenario outline ile editor sayfasinda kayit olusturur
     When kullanici "<firstName>" ile arama yapar
     Then isim bolumunde "<firstName>" oldugunu dogrular
     And 2 saniye bekle
-    Then sayfayi kapatir
+
 
 
     Examples:

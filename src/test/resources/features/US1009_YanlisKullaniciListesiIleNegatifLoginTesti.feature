@@ -13,7 +13,7 @@ Feature: US1009 Yanlis kullanici adi ve password listesi ile negatif login testi
     Then 2 saniye bekle
     And login butonuna basar
     And girisYapilamadiginiTestEder
-    Then sayfayi kapatir
+
     
     
     Examples:

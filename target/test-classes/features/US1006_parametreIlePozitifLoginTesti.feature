@@ -12,5 +12,5 @@ Feature: US1006 Kullanici configuration dosyasindaki bilgiler ile login olabilme
     And cookieleri kabul edelim
     Then login butonuna basar
     And basarili giris yapildigini test eder
-    Then sayfayi kapatir
+
     
