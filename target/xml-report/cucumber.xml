@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="63.86">
+    <testcase classname="US1005 Kullanici Configuration.Properties'de yazilan datalari parametre olarak kullanir" name="TC6 Kullanici amazon sitesine gidisi test eder" time="6.217">
+        <system-out><![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then url de "amazon" oldgunu test eder......................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici Configuration.Properties'de yazilan datalari parametre olarak kullanir" name="TC7 Kullanici wisequarter sitesine gidisi test eder" time="7.74">
+        <system-out><![CDATA[Given kullanici "wqUrl" anasayfaya gider....................................passed
+Then url de "wisequarter" oldgunu test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici Configuration.Properties'de yazilan datalari parametre olarak kullanir" name="TC8 Kullanici walmart sitesine gidisi test eder" time="6.494">
+        <system-out><![CDATA[Given kullanici "walmartUrl" anasayfaya gider...............................passed
+Then url de "walmart" oldgunu test eder.....................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1008 Scenario Outline ile birden fazla data için test calistirma" name="TC13 Scenario outline ile amazonda arama yapilabilmeli" time="6.163">
+        <system-out><![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
+And arama sonuclarinin "Nutella" icerdigini test eder.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1008 Scenario Outline ile birden fazla data için test calistirma" name="TC13 Scenario outline ile amazonda arama yapilabilmeli 2" time="7.141">
+        <system-out><![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then amazon arama kutusuna "Java" yazip aratir..............................passed
+And arama sonuclarinin "Java" icerdigini test eder..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1008 Scenario Outline ile birden fazla data için test calistirma" name="TC13 Scenario outline ile amazonda arama yapilabilmeli 3" time="8.702">
+        <system-out><![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then amazon arama kutusuna "Samsung" yazip aratir...........................passed
+And arama sonuclarinin "Samsung" icerdigini test eder.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1008 Scenario Outline ile birden fazla data için test calistirma" name="TC13 Scenario outline ile amazonda arama yapilabilmeli 4" time="20.964">
+        <system-out><![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then amazon arama kutusuna "Apple" yazip aratir.............................passed
+And arama sonuclarinin "Apple" icerdigini test eder.........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
